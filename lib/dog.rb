@@ -8,7 +8,7 @@ class Dog
     if breed.length > 0
       @breed
     else
-      breed = "Mutt"
+      @breed = "Mutt"
     end
   end
 end
