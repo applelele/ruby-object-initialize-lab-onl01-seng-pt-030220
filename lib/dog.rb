@@ -1,3 +1,5 @@
+require "pry"
+
 class Dog
   def initialize(name)
     @name = name
@@ -5,6 +7,7 @@ class Dog
 
   def initialize(breed)
     if breed.length > 0
+      binding.pry
       @breed = breed
     else
       @breed = "Mutt"
