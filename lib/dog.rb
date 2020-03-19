@@ -6,11 +6,10 @@ class Dog
   end
 
   def initialize(breed)
-    if breed.length > 0
-      binding.pry
-      @breed = breed
-    else
+    if breed = nil
       @breed = "Mutt"
+    else
+      @breed = breed
     end
   end
   
