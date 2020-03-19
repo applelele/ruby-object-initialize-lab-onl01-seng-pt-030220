@@ -1,11 +1,8 @@
 require "pry"
 
 class Dog
-  def initialize(name)
+  def initialize(name, breed)
     @name = name
-  end
-
-  def initialize(breed)
     if breed = ""
       @breed = "Mutt"
     else
